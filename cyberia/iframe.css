@@ -1,0 +1,24 @@
+
+
+iframe
+{-ms-transform:scale(0.8);
+border: 0px none; margin-left: -105px; height: 709px; margin-top: -153px; width: 726px;}
+@-moz-document url-prefix() {
+iframe
+{
+
+-moz-transform:scale(0.8);
+
+border: 0px none; margin-left: -105px; height: 709px; margin-top: -153px; width: 726px;
+}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+iframe
+{-webkit-transform:scale(0.8);
+border: 0px none; margin-left: 0px; height: 709px; margin-top: 0px; width: 726px;
+-o-transform:scale(0.8);
+overflow:hidden;
+}
+}

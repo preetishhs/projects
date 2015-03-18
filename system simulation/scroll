@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>A script on this page starts this clock:</p>
+
+<p id="demo">
+<table border=1>
+<tr>
+ <td>1</td>
+ <td>2</td>
+</tr>
+<tr>
+ <td>3</td>
+ <td>4</td>
+</tr>
+</p>
+
+<script>
+var myVar=setInterval(function(){myTimer()},1000);
+
+function myTimer() {
+var div = document.getElementById("demo") ;
+div.innerHTML = div.innerHTML + "<tr><td>3</td><td>4</td></tr>";
+}
+</script>
+
+</body>
+</html>
+

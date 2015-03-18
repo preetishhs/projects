@@ -1,0 +1,100 @@
+/*.hexagon-in9:{
+ background-image: url('event.jpg');
+}
+
+.hexagon-in9:hover {
+    background-image: url('event.png');
+    }
+}*/
+
+@-moz-document url-prefix() {
+.flip-container1 :
+{
+left:-100px;
+}
+.hexagon-in9:{
+ background-image: url('travel1.png');
+}
+
+.hexagon-in9:hover {
+    background-image: url('travel.png');
+    }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{.flip-container5 {
+    
+    -webkit-perspective:1000;
+    -moz-perspective:1000;
+    -o-perspective:1000;
+    perspective:1000;
+}
+
+.flip-container5, .front5, .back5 {
+    
+    width: 1015px;
+    height: 0.1px;
+}
+
+.flipper5 {
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+
+    position: relative;
+}
+
+.front5, .back5 {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    -ms-transition: 0.6s;
+    -ms-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+
+    position: absolute;
+    top: -90;
+    left: -109;
+    
+}
+
+.back5 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.flip-container5:hover .back5, .flip-container5.hover .back5 {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.flip-container5:hover .front5, .flip-container5.hover .front5 {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+
+.front5 {
+    z-index: 2;
+}
+}

@@ -1,0 +1,299 @@
+BODY {
+
+}
+
+.contianer {
+  position: relative;
+  background-color:blue;
+  width: 422px;
+  margin: 0 auto;
+ overflow:hidden;
+}
+
+.hexagon {
+    overflow: hidden;
+   visibility: hidden;
+	background-color:blue;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+    }
+
+.hexagon-in1 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);-
+}
+
+.hexagon-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('event.png');
+    background-color:white;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+
+
+.hexagon-in3 {
+    
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('Gallery.png');
+    background-color:#b3f89f;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    
+    }
+
+.hexagon-in4 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url('mesh.jpg');
+    background-color:white;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+
+.hexagon-in5 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('Event1.png');
+    /*background-color:white;*/
+    background-color:#9fa4f8;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+
+.hexagon-in5:hover {
+    background-image: url('event.png');
+    }
+
+
+.hexagon-in6 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('Gallery.png');
+    background-color:white;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+
+.hexagon-in7 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('reg1.png');
+    /*background-color:white;*/
+    background-color:#f8a29f;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+
+.hexagon-in7:hover {
+    background-image: url('reg.png');
+    }
+
+.hexagon-in8 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('sponsor2.png');
+    /*background-color:white;*/
+    background-color:#f8f79f;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+
+.hexagon-in9 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('travel1.png');
+    /*background-color:white;*/
+    background-color:#d69ff8;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in9:hover {
+    background-image: url('travel.png');
+    }
+.hexagon-in10 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('contact1.png');
+    /*background-color:white;*/
+    background-color:#f8c39f;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in10:hover {
+    background-image: url('contact.png');
+    }
+.h:hover {
+    background-image: url('ed1.jpg');
+    }
+
+.hexagon1 {
+    width: 400px;
+    height: 200px;
+    margin: 0 0 0 -80px;
+    }
+.hexagon2 {
+    width: 200px;
+    height: 400px;
+    /*margin: -80px 0 0 20px;*/
+    }
+.dodecagon {
+    width: 200px;
+    height: 200px;
+    margin: -80px 0 0 20px;
+    }
+
+/*
+
+.b {
+  left: 205px;
+}
+
+.c {
+  left: 410px;
+}
+
+.d {
+  left: 102px;
+}
+
+.e {
+  left: 306px;
+}
+
+.f {
+  left: 512px;
+}
+
+.g {
+  left: 205px;
+}
+
+.h {
+  left: 410px;
+}
+
+.rowOne {
+  top: 0;
+}
+
+.rowThree {
+  top: 356px;
+}
+
+.rowTwo {
+  top: 178px; 
+}
+
+.ie .rowTwo {
+  top: 250px;
+}
+*/
+
+.b {
+ left: 306px;
+}
+
+.c {
+  left: 306px;
+}
+
+.d {
+  left: 306px;
+}
+
+.e {
+  left: 315px;
+}
+
+.f {
+  left: 306px;
+}
+
+.g {
+  left: 306px;
+}
+
+.h {
+  left: 306px;
+}
+
+.rowOne {
+  top: 178px; 
+}
+
+.rowThree {
+ top: 178px; 
+}
+
+.rowTwo {
+
+  top: 178px; 
+
+}
+
+
+
+.ie .rowTwo {
+
+  top: 250px;
+
+}

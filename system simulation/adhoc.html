@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<style>
+
+body
+{
+padding-top:0px;
+margin:0px;
+background-image:url('bg5.jpg'); 
+background-repeat:repeat;
+}
+
+.btn {
+  background: #d9344a;
+  background-image: -webkit-linear-gradient(top, #d9344a, #b82b3d);
+  background-image: -moz-linear-gradient(top, #d9344a, #b82b3d);
+  background-image: -ms-linear-gradient(top, #d9344a, #b82b3d);
+  background-image: -o-linear-gradient(top, #d9344a, #b82b3d);
+  background-image: linear-gradient(to bottom, #d9344a, #b82b3d);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.attr
+{
+	width:60px;
+	height:60px;
+	position:absolute;
+	background-image:url(wk2.png);
+	z-index:9999;
+}
+
+.attr1
+{
+	z-index:9;
+	width:6px;
+	height:6px;
+	background:red;
+	position:absolute;
+}
+
+.attr2
+{
+	width:60px;
+	height:60px;
+	position:absolute;
+	z-index:999;
+}
+
+
+</style>
+
+<script src="jquery.js"></script>
+<script> 
+ 
+$(document).ready(function(){
+  $("#b1").click(function(){ 
+	$(".xs").fadeIn("slow");
+	$(".xs").fadeIn("slow");
+    $("#b2").fadeIn("slow");
+  });
+}); 
+ 
+ $(document).ready(function(){
+  $("#b2").click(function(){
+	$(".xd").fadeIn("slow");
+    $("#b3").fadeIn("slow");
+  });
+});
+
+var time = 999;
+$(document).ready(function(){
+  $("#b3").click(
+  function(){ 
+	$(".x0").animate({width:'80px'},time,
+	function(){
+    $(".x1").animate({width:'200px'},time);
+	$(".x11").animate({width:'282px'},time,
+		function(){ 
+		$(".g1").css("background","green");
+		$(".x2").animate({width:'200px'},time);
+		$(".x22").animate({width:'282px'},time,
+			function(){ 
+			$(".g2").css("background","green");
+			$(".x3").animate({width:'200px'},time);
+			$(".x33").animate({width:'282px'},time,
+				function(){ 
+				$(".g3").css("background","green");
+				$(".x4").animate({width:'200px'},time);
+				$(".x44").animate({width:'282px'},time,
+					function(){ 
+					$(".g4").css("background","green");
+					$(".x5").animate({width:'100px'},time,
+						function(){ 
+						$(".suc").fadeIn("slow",
+							function(){ 
+							//$(".suc").fadeTo("55555",0);
+									});
+								$(".suc").fadeTo(5555,0);
+								});
+							});
+						});
+					});
+				});
+			});
+		});
+	});
+</script> 
+<body>
+<div style="padding-top:4px;color:white;width:100%;height:80px;background:black;margin-left:auto;margin-right:auto;text-align:center">
+<h1>Adhoc Networks</h1>
+</div>
+<br><br>
+<div style="width:500px;margin-left:auto;margin-right:auto;">
+<button id="b1" class="btn" >Source Node</button>
+<button id="b2" class="btn" style="display:none" >Destination Node</button>
+<button id="b3" class="btn" style="display:none" >Route</button>
+</div>
+<br><br>
+
+<div style="background-image:url(grid_new.png);width:990px;height:792px;margin-left:auto;margin-right:auto;border:2px solid black">
+
+<img src="success.png" class="suc" style="z-index:99999;width:600px;height:180px;position:absolute;margin-left:200px;margin-top:220px;display:none">
+
+<div class="attr1 x1 g1"  style="margin-left:94px;margin-top:94px"></div>
+<div class="attr1 x1"  style="margin-left:102px;margin-top:94px;transform:rotate(90deg);transform-origin:top left;"></div>
+<div class="attr1 x11"   style="margin-left:97px;margin-top:94px;transform: rotate(45deg);transform-origin:top left;"></div>
+
+
+<div class="attr1 x2"  style="margin-left:294px;margin-top:94px"></div>
+<div class="attr1 x22 g2"   style="margin-left:297px;margin-top:94px;transform: rotate(45deg);transform-origin:top left;"></div>
+<div class="attr1 x22"   style="margin-left:300px;margin-top:100px;transform: rotate(135deg);transform-origin:top left;"></div>
+<div class="attr1 x2"  style="margin-left:302px;margin-top:94px;transform: rotate(90deg);transform-origin:top left;"></div>
+
+<div class="attr1 x3"   style="margin-left:500px;margin-top:300px;transform: rotate(-180deg);transform-origin:top left;"></div>
+<div class="attr1 x33"   style="margin-left:500px;margin-top:300px;transform: rotate(135deg);transform-origin:top left;"></div>
+<div class="attr1 x3"  style="margin-left:502px;margin-top:294px;transform: rotate(90deg);transform-origin:top left;"></div>
+<div class="attr1 x33"   style="margin-left:497px;margin-top:294px;transform: rotate(45deg);transform-origin:top left;"></div>
+<div class="attr1 x3 g3"  style="margin-left:494px;margin-top:294px"></div>
+<div class="attr1 x33"   style="margin-left:492px;margin-top:298px;transform: rotate(-45deg);transform-origin:top left;"></div>
+<div class="attr1 x3"   style="margin-left:492px;margin-top:298px;transform: rotate(-90deg);transform-origin:top left;"></div>
+
+
+
+<div class="attr1 x44"   style="margin-left:700px;margin-top:300px;transform: rotate(135deg);transform-origin:top left;"></div>
+<div class="attr1 x4"  style="margin-left:702px;margin-top:294px;transform: rotate(90deg);transform-origin:top left;"></div>
+<div class="attr1 x44 g4"   style="margin-left:697px;margin-top:294px;transform: rotate(45deg);transform-origin:top left;"></div>
+<div class="attr1 x4"  style="margin-left:694px;margin-top:294px"></div>
+<div class="attr1 x44"   style="margin-left:692px;margin-top:298px;transform: rotate(-45deg);transform-origin:top left;"></div>
+<div class="attr1 x4"   style="margin-left:692px;margin-top:298px;transform: rotate(-90deg);transform-origin:top left;"></div>
+
+<div class="attr1 x5" style="background:green;margin-left:905px;margin-top:500px;transform: rotate(125deg);transform-origin:top left;"></div>
+
+<div class="attr2 xs"  style="margin-left:125px;margin-top:15px;display:none"><img src="source.png" style="width:40px;height:40px"></div>
+<div class="attr1 xs x0"  style="margin-left:149px;margin-top:35px;background:green;transform: rotate(125deg);transform-origin:top left;display:none"></div>
+<div class="attr2 xd"  style="margin-left:825px;margin-top:555px;display:none"><img  src="dest1.png" style="width:40px;height:40px"></div>
+
+<div class="attr"  style="margin-left:73px;margin-top:65px"></div>
+<div class="attr" style="margin-left:273px;margin-top:65px"></div>
+<div class="attr" style="margin-left:473px;margin-top:65px"></div>
+<div class="attr" style="margin-left:673px;margin-top:65px"></div>
+<div class="attr" style="margin-left:873px;margin-top:65px"></div>
+
+<div class="attr" style="margin-left:73px;margin-top:265px"></div>
+<div class="attr" style="margin-left:273px;margin-top:265px"></div>
+<div class="attr" style="margin-left:473px;margin-top:265px"></div>
+<div class="attr" style="margin-left:673px;margin-top:265px"></div>
+<div class="attr" style="margin-left:873px;margin-top:265px"></div>
+
+<div class="attr" style="margin-left:73px;margin-top:465px"></div>
+<div class="attr" style="margin-left:273px;margin-top:465px"></div>
+<div class="attr" style="margin-left:473px;margin-top:465px"></div>
+<div class="attr" style="margin-left:673px;margin-top:465px"></div>
+<div class="attr" style="margin-left:873px;margin-top:465px"></div>
+
+<div class="attr" style="margin-left:73px;margin-top:665px"></div>
+<div class="attr" style="margin-left:273px;margin-top:665px"></div>
+<div class="attr" style="margin-left:473px;margin-top:665px"></div>
+<div class="attr" style="margin-left:673px;margin-top:665px"></div>
+<div class="attr" style="margin-left:873px;margin-top:665px"></div>
+
+</div>
+</body>
+</html>

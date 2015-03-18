@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>About - Astronomy Website Template</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<?php include 'head.php' ?>
+	<div id="contents">
+		<div class="wrapper clearfix">
+			
+				<h1>About Us</h1>
+				<p>
+					Sri Jayachamarajendra College Of Engineering, conceived in 1963, is the dream child of Jagadguru Dr. Sri Shivarathri Rajendra Mahaswamigalavaru, the 23rd pontiff of Sri Suttur Mutt. It comes under the aegis of JSS Mahavidyapeetha, which is the primary institution of many such institutions. The college was officially inauguarated by the esteemed founder of Manipal Institutes, Dr. T.M.A.Pai, the then chairman of the academy of education, Manipal, Mysore State.
+  The Institution serves as one of the major landmarks of the western part of mysore, with its sprawling 117 acres of campus and several recognizable buildings. As one of the leading institutes in India, SJCE has been recognized under the Technical Education Quality Improvement Programme(TEQIP), which is a world bank associated scheme and has been granted a generous and sumptuous Rs.20 crores.
+  Acknowledging the state of the art infrastructural facilities, faculties and expertise, that have been the hallmarks of the college, the Visvesvaraya Technological University has conferred the â€˜Autonomous statusâ€™ to the college from the year 2007-08.
+  The institution also has the reputation of academic, excellence in professionally oriented programs, and equal proficiency in extra-curricular activities, that makes it a lucrative option for students from all over the country, especially those staying in the remote places eyeing at an engineering seat.
+				<p>
+					
+			</div>
+		</div>
+	</div>
+	
+		<div class="body">
+			<div class="wrapper clearfix">
+				<div id="links">
+					<div>
+						<h4>Social</h4>
+						<ul>
+							<li>
+								<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank">Google +</a>
+							</li>
+							<li>
+								<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank">Facebook</a>
+							</li>
+							<li>
+								<a href="http://freewebsitetemplates.com/go/youtube/" target="_blank">Youtube</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h4>Heading placeholder</h4>
+						<ul>
+							<li>
+								<a href="index.html">Link Title 1</a>
+							</li>
+							<li>
+								<a href="index.html">Link Title 2</a>
+							</li>
+							<li>
+								<a href="index.html">Link Title 3</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="newsletter">
+					<h4>Newsletter</h4>
+					<p>
+						Sign up for Our Newsletter
+					</p>
+					<form action="index.html" method="post">
+						<input type="text" value="">
+						<input type="submit" value="Sign Up!">
+					</form>
+				</div>
+				<p class="footnote">
+					© Copyright © 2023.Company name all rights reserved
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
